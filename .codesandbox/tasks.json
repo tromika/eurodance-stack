@@ -1,0 +1,136 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    },
+    {
+      "name": "Remix init",
+      "command": "yarn remix init"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "//build-run-s": {
+      "name": "//build-run-s",
+      "command": "yarn //build-run-s",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "//build:vercel": {
+      "name": "//build:vercel",
+      "command": "yarn //build:vercel",
+      "runAtStart": false
+    },
+    "build:vercel": {
+      "name": "build:vercel",
+      "command": "yarn build:vercel",
+      "runAtStart": false
+    },
+    "build:css": {
+      "name": "build:css",
+      "command": "yarn build:css",
+      "runAtStart": false
+    },
+    "build:remix": {
+      "name": "build:remix",
+      "command": "yarn build:remix",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "dev:css": {
+      "name": "dev:css",
+      "command": "yarn dev:css",
+      "runAtStart": false
+    },
+    "dev:remix": {
+      "name": "dev:remix",
+      "command": "yarn dev:remix",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "generate:css": {
+      "name": "generate:css",
+      "command": "yarn generate:css",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "setup": {
+      "name": "setup",
+      "command": "yarn setup",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": false
+    },
+    "start:mocks": {
+      "name": "start:mocks",
+      "command": "yarn start:mocks",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:e2e:dev": {
+      "name": "test:e2e:dev",
+      "command": "yarn test:e2e:dev",
+      "runAtStart": false
+    },
+    "pretest:e2e:run": {
+      "name": "pretest:e2e:run",
+      "command": "yarn pretest:e2e:run",
+      "runAtStart": false
+    },
+    "test:e2e:run": {
+      "name": "test:e2e:run",
+      "command": "yarn test:e2e:run",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "//validate-run-p": {
+      "name": "//validate-run-p",
+      "command": "yarn //validate-run-p",
+      "runAtStart": false
+    },
+    "validate": {
+      "name": "validate",
+      "command": "yarn validate",
+      "runAtStart": false
+    },
+    "yarn remix init": {
+      "name": "yarn remix init",
+      "command": "yarn remix init"
+    }
+  }
+}
